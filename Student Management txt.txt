@@ -1,0 +1,32 @@
++----------------+
+|   STUDENTS     |
++----------------+
+| StudentID (PK) |
+| FirstName      |
+| LastName       |
+| Email          |
+| Phone          |
++-------+--------+
+        |
+        | 1
+        |
+        | M
++-------+--------+
+| ENROLLMENTS    |
++----------------+
+| EnrollmentID(PK)|
+| StudentID (FK) |
+| CourseID (FK)  |
+| EnrollDate     |
++-------+--------+
+        |
+        | M
+        |
+        | 1
++-------+--------+
+|   COURSES      |
++----------------+
+| CourseID (PK)  |
+| CourseName     |
+| CreditHours    |
++----------------+
